@@ -1,8 +1,57 @@
-body {
-    background-color: ;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#logo {
+html {
+    height: 100vh;
+}
+
+body {
+    background-color: blue;
+}
+
+header {
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    padding: 10px;
+}
+
+header button {
+    margin-right: 30px;
+}
+
+#img-logo {
     width: 200px;
+    margin-left: 30px;
+}
+
+ul.nav-list {
+    list-style-type: none;
+    display: flex;
     
+}
+
+ul.nav-list li {
+    margin: 10px;
+}
+
+.home {
+    background-color: red;
+    padding: 40px;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+}
+
+.svg-home img {
+    width: 50vw;
+}
+
+.test {
+    height: 100vh;
 }
