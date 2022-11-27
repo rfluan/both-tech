@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Both Tech</title>
     <!-- CSS -->
@@ -13,25 +14,31 @@
 </head>
 <body>
     <header>
-        <nav class="logo">
+        <nav class="navigation">
             <img id="img-logo" src="assets/img/logo-horizontal.png" alt="Logo da Both Tech">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">Sobre Nós</a></li>
+                <li class="nav-item"><a href="#">Projetos</a></li>
+                <li class="nav-item"><a href="#">Contate-nos</a></li>
+                <i class="bx bx-search"></i>
+            </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
-        <ul class="nav-list">
-            <li>Sobre Nós</li>
-            <li>Projetos</li>
-            <li>Contate-nos</li>
-        </ul>
-        <button>Solicite um orçamento!</button>
     </header>
 
     <main>
         <section class="home">
-            <div class="info-home">
-                <h1>Energia limpa para um futuro brilhante.</h1>
+            <div class="home-text">
+                <h1 class ="text-h1">Energia limpa para um futuro brilhante.</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo expedita quod quibusdam ex fuga vitae non illo. Repellat hic ab debitis, alias quaerat quas totam obcaecati esse voluptatem. Obcaecati, expedita.</p>
                 <button>Orçamento.</button>
             </div>
-            <div class="svg-home">
+            <div class="home-img">
                 <img src="assets/img/img-vetor.svg" alt="casa com placas solares">
             </div>
         </section>
